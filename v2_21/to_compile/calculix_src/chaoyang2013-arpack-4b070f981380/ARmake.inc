@@ -27,7 +27,7 @@
 #  The complete path to the top level of ARPACK directory, usually
 #  $(HOME)/ARPACK
 #
-home          = /global/cscratch1/sd/cyang/ARPACK
+home          = /calculix_src/chaoyang2013-arpack-4b070f981380
 #
 #  The platform identifier to suffix to the end of library names
 #
@@ -100,8 +100,8 @@ PLIBS = $(PARPACKLIB) $(ALIBS) $(MPILIBS)
 #  Various compilation programs and flags.
 #  You need to make sure these are correct for your system.
 #
-FC      = ftn
-FFLAGS	= -O3 
+FC      = gfortran
+FFLAGS	= -O3 -fallow-argument-mismatch
 
 # Set the parallel fortran compiler
 PFC      = ftn

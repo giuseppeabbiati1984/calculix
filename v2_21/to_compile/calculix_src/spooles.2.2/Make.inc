@@ -11,8 +11,8 @@
 #
 # for solaris
 #
-# CC = gcc
-  CC = /usr/lang-4.0/bin/cc
+  CC = gcc
+# CC = /usr/lang-4.0/bin/cc
 #
 # for sgi
 #
