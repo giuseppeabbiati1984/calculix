@@ -1,0 +1,4 @@
+Making ardebug.o from ardebug.f
+** main   === End of Compilation 1 ===
+1501-510  Compilation successful for file ardebug.f.
+	xlf90 -O3 -qarch=pwr3 -qstrict -bmaxdata:2000000000 -bmaxstack:200000000 -qfixed ardebug.o /scratch/cyang/ARPACK/libarpack_IBM.a /usr/common/usg/LAPACK/3.0/lapack_SP.a -lessl  -o ardebug

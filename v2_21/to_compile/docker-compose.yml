@@ -1,0 +1,8 @@
+#version: '4.3'
+services:
+  ccx_service:
+    build: 
+      context: .devcontainer
+      dockerfile: Dockerfile
+    volumes:
+      - ./calculix_src:/calculix_src
