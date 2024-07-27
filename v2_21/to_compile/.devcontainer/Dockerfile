@@ -23,10 +23,12 @@ COPY startup.sh .
 RUN chmod +x /startup.sh
 
 # sat/sat config SALOME-9.10.0-native --check_system
+
+# create a link to python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
 # install python packages
 # RUN pip3 install -r requirements.txt
-# old way of calling python
-RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # Create VNC startup script
 # RUN mkdir -p /root/.vnc && echo '#!/bin/bash\nxrdb $HOME/.Xresources\nstartxfce4 &' > /root/.vnc/xstartup && chmod +x /root/.vnc/xstartup
