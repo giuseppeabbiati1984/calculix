@@ -152,5 +152,7 @@ libtcl \
 tcl-dev \
 libtk \
 tk-dev \
+python3-sip-dev \
+python3-statsmodels \
 
 echo "All dependencies for SALOME 9.10 have been installed."
