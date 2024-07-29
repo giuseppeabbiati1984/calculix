@@ -3,7 +3,7 @@
 # Update package list
 apt-get update
 
-# Install required packages
+# Install required packages (some python packages must be installed via apt-get!!!)
 apt-get install -y \
 cmake \
 gcc \
@@ -154,5 +154,12 @@ libtk \
 tk-dev \
 python3-sip-dev \
 python3-statsmodels \
+python3-pytest-cython \
+python3-mpi4py \
+python3-nose \
+python3-numpydoc \
+python3-stemmer \
+python3-sphinx-rtd-theme \
+python3-sphinxcontrib.websupport \
 
 echo "All dependencies for SALOME 9.10 have been installed."
