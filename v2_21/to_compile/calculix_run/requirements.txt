@@ -1,0 +1,7 @@
+numpy
+math
+salome
+salome_notebook
+GEOM
+SALOMEDS
+SMESH
