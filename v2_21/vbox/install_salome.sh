@@ -167,4 +167,6 @@ python3-sphinxcontrib.websupport \
 
 ln -s /usr/bin/python3 /usr/bin/python
 
+pip install -r requirements.txt
+
 echo "All dependencies for SALOME 9.10 have been installed."

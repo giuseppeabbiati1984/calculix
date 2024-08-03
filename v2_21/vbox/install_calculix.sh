@@ -11,8 +11,8 @@ else
 	echo "Calculix 2.21 compiling starts."
 fi
 
-# go to calculix source code folder
-cd /calculix_src/
+apt-get clean && rm -rf /var/lib/apt/lists/* && apt-get update && apt-get upgrade -y && apt-get update
+apt-get install -y gcc gfortran bash make nano bzip2 libblas-dev liblapack-dev liblapacke-dev nano unzip xfce4 xfce4-goodies xfce4-terminal tightvncserver doxygen python3 python3-pip
 
 # decompress archives for calculix source code
 rm -f ccx_2.21.src.tar
