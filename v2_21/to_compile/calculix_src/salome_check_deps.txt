@@ -1,2 +1,0 @@
-root@92468e9d6704:/calculix_src/SALOME-9.10.0-native-UB22.04-SRC# export ROOT=$(pwd)
-root@92468e9d6704:/calculix_src/SALOME-9.10.0-native-UB22.04-SRC# ${ROOT}/sat/sat config SALOME-9.10.0-native --check_system

@@ -1,0 +1,18 @@
+#version: '4.3'
+services:
+  # here we have a single container
+  calculix:
+    container_name: calculix_bash
+    build:     
+      context: .devcontainer
+      dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./calculix_src:/calculix_src
+      - ./calculix_run:/calculix_run
+    ports:
+      - "5901:5901"
+    command: /bin/bash -c "vncserver :1 -geometry 1280x800 -depth 24 && tail -F /root/.vnc/*.log"
+    environment:
+      - VNC_PASSWORD=giuseppe
