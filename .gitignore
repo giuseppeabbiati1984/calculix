@@ -1,0 +1,8 @@
+*.pyc
+*.log
+.vs/
+.vscode/
+**/bin/Debug/
+**/obj/
+**/venv/
+**/slprj/
