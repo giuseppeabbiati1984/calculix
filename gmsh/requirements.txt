@@ -3,6 +3,6 @@ numpy
 scipy
 gmsh
 ipykernel
-vtk
-pyvista
-trame
+#vtk
+#pyvista
+#trame

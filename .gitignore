@@ -4,5 +4,5 @@
 .vscode/
 **/bin/Debug/
 **/obj/
-**/venv/
+**/venv*/
 **/slprj/
